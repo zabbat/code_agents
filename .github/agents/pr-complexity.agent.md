@@ -1,8 +1,3 @@
-# .github/agents/pr-complexity.agent.md
-#
-# Custom Copilot agent that reads PR changes and posts
-# a complexity score from 1-10 as a PR comment.
-
 ---
 name: pr-complexity
 description: Analyzes pull request changes and posts a complexity score from 1-10
