@@ -1,8 +1,9 @@
 {
-  "servers": {
+  "mcpServers": {
     "atlassian": {
-      "type": "url",
-      "url": "https://mcp.atlassian.com/v1/mcp"
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "tools": ["jira_get_issue", "jira_search_issues", "jira_get_issue_transitions"]
     }
   }
 }
